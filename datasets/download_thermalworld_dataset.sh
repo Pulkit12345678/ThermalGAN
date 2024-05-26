@@ -1,9 +1,9 @@
 FILE=$1
 
-if [[ $FILE != "ThermalWorld" ]]; then
-    echo "Available dataset is: ThermalWorld"
-    exit 1
-fi
+# if [[ $FILE != "ThermalWorld" ]]; then
+#     echo "Available dataset is: ThermalWorld"
+#     exit 1
+# fi
 
 URL=http://zefirus.org/datasets/models/ThermalGAN/$FILE.zip
 ZIP_FILE=./datasets/$FILE.zip
